@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  z-index: 1;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ans-btn {
+  border: 0px solid white;
+  background-color: white;
+  margin: 50px;
+}
+.Ans {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.slider {
+  width: 1000px;
+  height: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: normal;
+}
+.upper{
+  height: 20px;
+  width: 500px;
+  border: '10px solid black';
+  background-color: green;
+  position: relative;
+  top: 20px;
+  float: left;
+  right: 250px;
+  z-index: 0;
+
+}
+
+.point {
+  border: 1px solid white;
+  width: 20px;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: "10px 10px 10px #F4AAB9";
+  margin: 0px 0px 2px 0px;
+}
+.Main {
+  background-color: white;
+  height: 100vh;
+}
+.A {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  background-color: skyblue;
+}
+.B {
+  height: 700px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+}
+.d1 {
+  height: 60%;
+  width: 50%;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d2 {
+  height: 60%;
+  width: 50%;
+  border: 2px solid black;
+  background-color: white;
+}
