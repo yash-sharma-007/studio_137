@@ -13,13 +13,13 @@ export const ProgressBlock = () => {
         
       }}
     >
-      <span style={{ margin: "0px 60px 0px 0px" , width:'100px' }}>
+      <span style={{ margin: "0px 60px 0px 0px" , width:'200px' }}>
         {" "}
         {qNumber < 6 ? <Progress pr={qNumber * 20} /> : <Progress pr={100} />}
         <h3> IDEALISTIC </h3>
       </span>
 
-      <span style={{ margin: "0px 60px 0px 60px" , width:'100px' }}>
+      <span style={{ margin: "0px 60px 0px 60px" , width:'200px' }}>
         {" "}
         {qNumber > 5 && qNumber < 11 ? (
           <Progress pr={(qNumber - 5) * 20} />
@@ -31,7 +31,7 @@ export const ProgressBlock = () => {
         <h3> DISILLUSIONED </h3>{" "}
       </span>
 
-      <span style={{ margin: "0px 60px 0px 60px" , width:'100px' }}>
+      <span style={{ margin: "0px 60px 0px 60px" , width:'200px' }}>
         {" "}
         {qNumber > 10 && qNumber < 16 ? (
           <Progress pr={(qNumber - 10) * 20} />
@@ -40,10 +40,10 @@ export const ProgressBlock = () => {
         ) : (
           <Progress pr={100} />
         )}{" "}
-        <h3> DISILLUSIONED </h3>{" "}
+        <h3> CYNICAL </h3>{" "}
       </span>
 
-      <span style={{ margin: "0px 60px 0px 60px" , width:'100px' }}>
+      <span style={{ margin: "0px 60px 0px 60px" , width:'200px' }}>
         {" "}
         {qNumber > 15 && qNumber < 21 ? (
           <Progress pr={(qNumber - 15) * 20} />
@@ -52,7 +52,7 @@ export const ProgressBlock = () => {
         ) : (
           <Progress pr={100} />
         )}{" "}
-        <h3> DISILLUSIONED </h3>{" "}
+        <h3> HOPEFUL </h3>{" "}
       </span>
     </div>
   );
